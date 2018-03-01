@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<title> Pomodoro Clock </title>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+  	<script type="text/javascript" src="clock.js"></script>
+  	<link rel="stylesheet" type="text/css" href="clock.css">
+  	<link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
+  	<link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet'>
+  	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
+  </head>
+<body>  
+    <div class="container-fluid">
+      <div class="container">
+      <audio id="buzzer" src="http://soundbible.com/1501-Buzzer.html" type="audio/mpeg"></audio>
+        <h1 class="text-center">A Pomodoro Clock</h1>
+        <div id="timerSetting">
+        <div class="row text-center">
+        
+          <div class="col-md-6 col-sm-6" id="sessionTime">
+            <h2>Session Length</h2>
+            <button class="btn btn-warning" id="sessionDec">-</button>
+            <span id="sessionCount">25</span>
+            <button class="btn btn-warning" id="sessionInc">+</button>
+          </div>
+
+          <div class="col-md-6 col-sm-6" id="breakTime">
+            <h2>Break Length</h2>
+            <button class="btn btn-warning" id="breakDec" >-</button>
+            <span class="text-center" id="breakCount">25</span>
+            <button class="btn btn-warning" id="breakInc">+</button>
+          </div>
+
+        </div>
+
+          <div id="timer" class="text-center">0 : 00</div>
+
+          <div id="timerName" class="text-center"> </div>
+
+        <div class=" text-center">
+           <button class="btn btn-warning button" id="start">START</button> 
+           <button class="btn btn-warning button" id="reset">RESET</button> 
+        </div>
+
+        </div>
+      </div>
+    </div>
+</body>
+</html>

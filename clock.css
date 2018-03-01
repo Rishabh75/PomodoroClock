@@ -1,0 +1,65 @@
+body{
+	background:url('https://aff.bstatic.com/images/hotel/840x460/172/17239338.jpg');
+	color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: black;
+	opacity: 0.8;
+}	
+
+h1{
+	font-size: 5em;
+	margin: 20px;
+	padding: 20px;
+	font-family: 'Lobster';
+	text-shadow: 5px 5px 10px #333333;
+}
+h2{
+	margin: 5px;
+	padding: 5px;
+	font-size: 2.8em;
+	font-family: 'Lobster';
+	text-shadow: 3px 3px 8px #333333;
+}
+
+#sessionCount , #breakCount {
+		margin: 5px;
+		padding: 5px;
+		font-size: 1.8em;
+		font-family: 'Lobster';
+		text-shadow: 2px 2px 5px #333333;
+}
+
+
+#timer {
+	margin: 40px;
+	padding: 30px;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	font-size: 5em;
+	text-shadow: 5px 5px 10px #333333;
+}
+
+#timerName{
+	font-size: 2.3em;
+	font-family: 'Lobster';
+	margin-bottom: 25px;
+	text-shadow: 5px 5px 10px black;
+}
+
+.button{
+	margin: 20px;
+	padding: 10px;
+	width: 90px;
+	height: 45px;
+	font-size: 20px;
+	font-family: 'Lobster';
+}
+
+.btn-warning{
+	color: #0d0d0d;
+	text-shadow: 2px 2px 5px #333333;
+	font-weight: bolder;
+}
+
